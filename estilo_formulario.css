@@ -1,0 +1,51 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+   }
+   table { border-collapse: collapse; border-spacing: 0; }
+   td, th, caption { font-weight: normal; text-align: left; }
+   img, fieldset { border: 0; }
+   ol { padding-left: 1.4em; list-style: decimal; }
+   ul { padding-left: 1.4em; list-style:square; }
+   q:before, q:after { content:''; }
+   /*aqui acaba el reset*/
+   body{
+    font-size: medium;
+   }
+   h1{
+    font:normal 2.4em Times New Roman;
+    background:-webkit-linear-gradient(top,rgb(21, 255, 0),rgb(188, 255, 4));
+    width: 60%;
+    border-radius: 10px;
+    margin:15px auto;
+    text-align: center;
+    padding: 15px;
+    color: azure;
+    box-shadow: rgb(0, 255, 255) 5px 5px 10px;
+    text-shadow: rgb(0, 247, 255) 3px 3px 5px;
+   }
+   section{
+    width: 91%;
+    border-top:1px dashed rgb(0, 204, 255);
+    margin: 15px auto;
+   }
+   figure{
+    text-align: center;
+   }
+   figcaption{
+    background:-webkit-linear-gradient(top,rgb(119, 0, 255),rgb(4, 176, 255));
+    width: 30%;
+    border-radius: 15px;
+    margin:10px auto;
+    text-align: center;
+    padding: 8px;
+    color: azure;
+    box-shadow: rgb(0, 255, 242) 5px 5px 10px;
+    text-shadow: rgb(0, 255, 255) 9px 9px 9px;
+    font-family: bold 1.3em 'Times New Roman', Times, serif ;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 5px;
+   }
